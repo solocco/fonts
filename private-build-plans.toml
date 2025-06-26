@@ -1,0 +1,130 @@
+[buildPlans.cid-mono]
+family = "Cid Mono"
+spacing = "fixed"
+serifs = "sans"
+export-glyph-names = false
+
+[buildPlans.cid-mono.variants.design]
+cv01 = 3    # 1 dengan bottom serif
+cv02 = 1    # 2 lurus
+cv03 = 3    # 3 double arc
+cv04 = 5    # 4 semi-open
+cv05 = 1    # 5 open top
+cv06 = 3    # 6 straight
+cv09 = 3    # 9 straight
+cv10 = 4    # 0 slashed
+cv11 = 1    # A sans
+cv12 = 1    # B sans
+cv13 = 1    # C sans
+cv14 = 1
+cv15 = 1
+cv16 = 1
+cv17 = 2
+cv18 = 1
+cv19 = 2
+cv20 = 2
+cv21 = 1
+cv22 = 1
+cv23 = 7    # M JetBrains-style
+cv24 = 1
+cv25 = 1
+cv26 = 4
+cv27 = 1
+cv28 = 1
+cv29 = 1
+cv30 = 12
+cv31 = 1
+cv32 = 1
+cv33 = 1
+cv34 = 1
+cv35 = 1
+cv36 = 4    # a double storey
+cv37 = 6
+cv38 = 1
+cv39 = 7
+cv40 = 1
+cv41 = 12   # f flat top
+cv42 = 8    # g single-storey JetBrains
+cv43 = 1
+cv44 = 10   # i with round dot, serifed base
+cv45 = 6
+cv46 = 6
+cv47 = 14   # l with clear top serif
+cv48 = 7    # m JetBrains-style triple arch
+cv49 = 8
+cv50 = 4
+cv51 = 13
+cv52 = 9    # r no hook
+cv53 = 1
+cv54 = 7
+cv55 = 8
+cv56 = 1
+cv57 = 1
+cv58 = 1
+cv59 = 1
+cv60 = 1
+VSAL = 4    # @ folded
+VDAA = 2    # square dot on i/j
+
+[buildPlans.cid-mono.variants.italic]
+cv36 = 1
+cv37 = 1
+cv39 = 1
+cv40 = 2
+cv41 = 12
+cv42 = 8
+cv44 = 10
+cv45 = 6
+cv46 = 6
+cv47 = 14
+cv48 = 7
+cv49 = 1
+cv50 = 1
+cv51 = 1
+cv52 = 9
+cv55 = 1
+cv59 = 1
+
+[buildPlans.cid-mono.weights.regular]
+shape = 400
+menu  = 400
+css   = 400
+
+[buildPlans.cid-mono.weights.medium]
+shape = 500
+menu  = 500
+css   = 500
+
+[buildPlans.cid-mono.weights.bold]
+shape = 700
+menu  = 700
+css   = 700
+
+[buildPlans.cid-mono.weights.regular.slopes]
+upright = true
+italic = true
+
+[buildPlans.cid-mono.weights.medium.slopes]
+upright = true
+italic = true
+
+[buildPlans.cid-mono.weights.bold.slopes]
+upright = true
+italic = true
+
+[buildPlans.cid-mono.slopes.upright]
+angle = 0
+shape = "upright"
+menu = "upright"
+css = "normal"
+
+[buildPlans.cid-mono.slopes.italic]
+angle = 9.4
+shape = "italic"
+menu = "italic"
+css = "italic"
+
+[buildPlans.cid-mono.widths.normal]
+shape = 510   # sedikit lebih lebar dari Iosevka default (500), lebih readable
+menu = 5
+css = "normal"
